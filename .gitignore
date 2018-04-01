@@ -6,3 +6,6 @@ package-lock.json
 # IDE
 .idea
 .vscode
+
+# project
+dist
