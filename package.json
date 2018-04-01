@@ -1,9 +1,9 @@
 {
-  "name": "eslint-config",
+  "name": "project-starter",
   "version": "0.0.1",
-  "description": "ESLint config, based on Airbnb with Prettier",
+  "description": "Lightweight react project starter with ESLint and Prettier",
   "author": "Edvinas Jurele",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
