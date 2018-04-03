@@ -2,6 +2,15 @@
 
 React project starter with integrated Webpack 4, SASS, ESLint and Prettier support.
 
+#### Includes:
+
+* **React v16**
+* **Webpack 4**
+* **ES6+** support (**Babel** integration)
+* **SASS** support
+* **ESlint** (based on Airbnb)
+* **Prettier**
+
 ## Requirements
 
 * `yarn`
@@ -12,10 +21,10 @@ React project starter with integrated Webpack 4, SASS, ESLint and Prettier suppo
 * `yarn`
 * `yarn start` (to start development server)
 
-## Production build
+## Build
 
 Run `yarn build` to build the standalone app to **dist** folder
 
-## Serve app
+## Server
 
 Run `yarn serve` to serve the app with express server.
