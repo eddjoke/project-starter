@@ -36,5 +36,6 @@ module.exports = {
   plugins: [extractSass],
   devServer: {
     contentBase: './dist',
+    hot: true,
   },
 };
