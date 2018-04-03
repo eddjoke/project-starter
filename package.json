@@ -8,6 +8,7 @@
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development --hot",
     "build": "webpack",
+    "clean": "rm -rf dist/main.css dist/main.js",
     "serve": "babel-node server.js"
   },
   "devDependencies": {
