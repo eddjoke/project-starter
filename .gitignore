@@ -8,4 +8,5 @@ package-lock.json
 .vscode
 
 # project
-dist
+dist/main.css
+dist/main.js
