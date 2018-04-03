@@ -1,6 +1,6 @@
 # React project starter
 
-React project starter with integrated Webpack 4, SASS, ESLint and Prettier support.
+React project starter with integrated Webpack 4, SASS, ESLint, Stylint and Prettier support.
 
 #### Includes:
 
@@ -33,7 +33,8 @@ Run either `yarn lint:js` or `yarn lint:css` to linter the files by their type.
 ## Cleaning
 
 Run `yarn clean` to remove generated files
-Run `yarn purge` to remove generated files and node_modules folder
+
+Run `yarn purge` to remove generated files and **node_modules** folder
 
 ## Build
 
