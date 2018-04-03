@@ -15,9 +15,14 @@
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development --hot",
     "build": "webpack",
-    "lint": "eslint src",
+    "format": "prettier --write '**/*.*'",
+    "lint": "run-p lint:*",
+    "lint:css": "stylelint '**/*.*'",
+    "lint:js": "eslint . --color",
+    "purge": "rm -rf node_modules && yarn clean",
     "clean": "rm -rf dist/main.css dist/main.js",
-    "serve": "babel-node server.js"
+    "serve": "babel-node server.js",
+    "prepush": "run-p lint"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -42,10 +47,15 @@
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.7.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "husky": "^0.14.3",
     "node-sass": "^4.8.3",
+    "npm-run-all": "^4.1.2",
     "prettier": "^1.11.1",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.20.3",
+    "stylelint": "^9.2.0",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-scss": "^3.0.0",
     "webpack": "^4.4.1",
     "webpack-cli": "^2.0.13",
     "webpack-dev-server": "^3.1.1"

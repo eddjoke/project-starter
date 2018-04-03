@@ -9,6 +9,7 @@ React project starter with integrated Webpack 4, SASS, ESLint and Prettier suppo
 * **ES6+** support (**Babel** integration)
 * **SASS** support
 * **ESlint** (based on Airbnb)
+* **Stylelint** support
 * **Prettier**
 
 ## Requirements
@@ -23,7 +24,16 @@ React project starter with integrated Webpack 4, SASS, ESLint and Prettier suppo
 
 ## Linting
 
-Run `yarn lint` to lint the js files
+Run `yarn lint` to lint the js and scss files
+
+or
+
+Run either `yarn lint:js` or `yarn lint:css` to linter the files by their type.
+
+## Cleaning
+
+Run `yarn clean` to remove generated files
+Run `yarn purge` to remove generated files and node_modules folder
 
 ## Build
 
