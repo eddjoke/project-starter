@@ -7,7 +7,7 @@ React project starter with integrated Webpack 4, SASS, ESLint and Prettier suppo
 * **React v16**
 * **Webpack 4**
 * **ES6+** support (**Babel** integration)
-* **SASS** support
+* **SASS** support (with autoprefixer)
 * **ESlint** (based on Airbnb)
 * **Stylelint** support
 * **Prettier**
