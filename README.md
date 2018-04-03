@@ -15,3 +15,7 @@ React project starter with integrated Webpack 4, SASS, ESLint and Prettier suppo
 ## Production build
 
 Run `yarn build` to build the standalone app to **dist** folder
+
+## Serve app
+
+Run `yarn serve` to serve the app with express server.
