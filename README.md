@@ -21,6 +21,10 @@ React project starter with integrated Webpack 4, SASS, ESLint and Prettier suppo
 * `yarn`
 * `yarn start` (to start development server)
 
+## Linting
+
+Run `yarn lint` to lint the js files
+
 ## Build
 
 Run `yarn build` to build the standalone app to **dist** folder
