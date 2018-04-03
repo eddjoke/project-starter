@@ -1,3 +1,17 @@
 # Project starter
 
-Lightweight project starter with integrated ESLint and Prettier.
+React project starter with integrated Webpack 4, SASS, ESLint and Prettier support.
+
+## Requirements
+
+* `yarn`
+* `node` >= 8
+
+## Installation
+
+* `yarn`
+* `yarn start` (to start development server)
+
+## Production build
+
+Run `yarn build` to build the standalone app to **dist** folder

@@ -1,11 +1,11 @@
 {
-  "name": "project-starter",
+  "name": "react-project-starter",
   "version": "0.0.1",
-  "description": "Quick project starter with ESLint and Prettier",
+  "description": "React project starter with Webpack, SASS, ESLint and Prettier support",
   "author": "Edvinas Jurele",
   "license": "MIT",
   "scripts": {
-    "start": "NODE_ENV=development webpack-dev-server --config ./webpack.config.js --mode development",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
     "build": "webpack"
   },
   "devDependencies": {
