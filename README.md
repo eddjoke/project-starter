@@ -1,4 +1,4 @@
-# Project starter
+# React project starter
 
 React project starter with integrated Webpack 4, SASS, ESLint and Prettier support.
 
